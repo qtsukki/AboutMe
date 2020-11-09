@@ -1,0 +1,56 @@
+#body {
+  height: 1800px;
+  /*Orange gradient as background*/
+  background-image: linear-gradient(#ffa366, #ffa64d);
+  text-align:center
+}
+
+.header {
+  /*Sticking my header*/
+ position: -webkit-sticky;
+ position: sticky;
+ top: 0;
+ padding: 30px;
+ animation-name: heading;
+ animation-duration: 4s;
+  /*The color animation is playing forever*/
+ animation-iteration-count: infinite;
+}
+/*The colors I used for my header*/
+@keyframes heading {
+  0%   {background-color:#e65c00;}
+  25%  {background-color:#ffb366;}
+  50%  {background-color:#ff751a;}
+  75%  {background-color:#ffa64d;}
+  100% {background-color:#e65c00;}
+}
+
+h1{
+  text-align:center;
+  font-size:30px;
+  font-family: 'Architects Daughter';
+  text-color:black
+}
+
+wow{
+  text-align:center;
+  font-size:15px;
+  font-family: 'Architects Daughter';
+  text-color:black
+}
+
+.about {
+  font-size:25px;
+  font-family: 'Courier New';
+  margin:60px
+}
+
+img{
+  width:500px;height:400px;
+  position:center
+}
+
+.explain{
+  font-size:18px;
+  font-family: 'Architects Daughter'
+}
